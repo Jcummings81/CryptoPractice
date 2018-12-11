@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   namespace :api do
     #API ROUTES SHOULD GO HERE
   end
